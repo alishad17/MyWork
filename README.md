@@ -25,7 +25,7 @@ STK320: Time Series Analysis and Categorical Data Analysis
 Includes: SAS
 
 STK353: The science of data analytics, sampling and machine learning
-Inclludes: R, Python (to be added)
+Includes: R, Python (to be added)
 
 WST121: Mathematical statistics - sampling, inference, ANOVA
 Includes: R
