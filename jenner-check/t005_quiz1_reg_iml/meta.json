@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_quiz1_reg_iml",
+  "source_file": "STK310/Quiz 1.sas",
+  "source_blob_sha": "79342d310220757ca9da3d997edb4583ba525059",
+  "source_commit": "0debd2c69fb562d6be5747c53075f0d5646f13d1",
+  "notes": "DATA step with inline cards (x,y pairs) feeding PROC REG (simple linear regression with COVB) and PROC IML/PROC UNIVARIATE for manual verification of the regression sums. Two edits for standalone execution: (1) READ ALL VAR varNames (a character-matrix variable holding {'x' 'y'}) hit a Jenner parser gap -- filed as a regression test upstream -- worked around here with the equivalent literal {x y} var list, keeping colname=varNames so the printed matrix is identical; (2) merged a redundant second 'proc iml;' (issued without an intervening quit;, apparently expected to resume the same IML workspace) into the first IML block so the MD matrix stays in scope, since Jenner does not carry symbols across repeated PROC IML statements without QUIT -- also flagged upstream. Dropped two trailing lines of dead code after PROC UNIVARIATE that referenced x/y outside any DATA or PROC IML block."
+}

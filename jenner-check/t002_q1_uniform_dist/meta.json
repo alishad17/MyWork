@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_q1_uniform_dist",
+  "source_file": "STK210/Q1 210.sas",
+  "source_blob_sha": "13f496c0dcdc03dd921bfe9df6cdde0b346ac93d",
+  "source_commit": "0debd2c69fb562d6be5747c53075f0d5646f13d1",
+  "notes": "PROC IML uniform-distribution CDF/PDF/quantile calculations, then simulates 1000 draws (call randseed/randfun) and feeds them into PROC UNIVARIATE (histogram), PROC FREQ, and PROC MEANS to compare theoretical vs. empirical probabilities. Fully self-contained, unmodified from source."
+}

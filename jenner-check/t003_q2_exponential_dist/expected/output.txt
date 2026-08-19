@@ -1,0 +1,150 @@
+Practical 10: Question 2
+
+Question 2(a)
+
+0.8646647
+
+Question 2(b)
+
+5.7536414
+27.725887
+21.972246
+
+Question 2(c)
+
+    0.05
+0.0303265
+
+Question 2(d)
+
+      20
+     400
+
+Question 2(e)
+
+Q2eii:  
+0.3834005
+
+Q2ev:   
+27.725887
+
+Q2evi:  
+0.0303265
+
+Question 2(f)
+
+Question 2(g)
+
+Observations 251-260: 
+63.008217
+28.394923
+19.966761
+12.687479
+6.3026837
+28.481444
+7.9627831
+9.4083786
+80.269091
+21.52824
+
+                                            Lifetime of an alkaline battery
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  hours
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       18.280506    Sum Observations         1828.050628
+Std Deviation              18.882817    Variance                  356.560764
+Skewness                    2.223282    Kurtosis                    6.184004
+Uncorrected SS          68717.206631    Corrected SS            35299.515649
+Coeff Variation           103.294823    Std Error Mean              1.888282
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      18.280506  Std Deviation   18.882817
+Median    12.021291  Variance       356.560764
+Mode              .  Range           98.417671
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       0.346587
+1%           0.575425
+5%           1.223668
+10%          2.171149
+25% Q1       5.375250
+50% Median  12.021291
+75% Q3      25.052816
+90%         37.962064
+95%         50.627676
+99%         96.751614
+100% Max    98.764259
+
+         Extreme Observations          
+
+      Lowest              Highest
+   Value       Obs      Value       Obs
+--------  --------  ---------  --------
+0.346587        92  52.913840        68
+0.804263        53  76.311142        82
+0.894705        54  82.313835        22
+1.078915        24  94.738969        32
+1.079870        98  98.764259         7
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  9.681027    Pr > |t|    <.0001
+                                    Sign           M        50    Pr >= |M|   <.0001
+                                    Signed Rank    S      2525    Pr >= |S|   <.0001
+
+                             Empirical probabilities of the lifetime of an alkaline battery
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+grp3    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              74     74.00           74        74.00
+1              26     26.00          100       100.00
+
+                                  Cumulative    Cumulative
+grp4    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              83     83.00           83        83.00
+1              17     17.00          100       100.00
+                             Empirical probabilities of the lifetime of an alkaline battery
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+grp5    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              47     78.33           47        78.33
+1              13     21.67           60       100.00
+                             Empirical probabilities of the lifetime of an alkaline battery
+
+                                                  The MEANS Procedure
+
+ Variable         N           Mean        Std Dev        Minimum        Maximum
+ ------------------------------------------------------------------------------
+ grp3           100      0.2600000      0.4408440      0.0000000      1.0000000
+ grp4           100      0.1700000      0.3775252      0.0000000      1.0000000
+ ------------------------------------------------------------------------------
+
+                             Empirical probabilities of the lifetime of an alkaline battery
+
+                                                  The MEANS Procedure
+
+ Variable        N           Mean        Std Dev        Minimum        Maximum
+ -----------------------------------------------------------------------------
+ grp5           60      0.2166667      0.4154502      0.0000000      1.0000000
+ -----------------------------------------------------------------------------
+

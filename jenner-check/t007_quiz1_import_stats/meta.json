@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_quiz1_import_stats",
+  "source_file": "STK220/Quiz1 220.sas",
+  "source_blob_sha": "7d85b78004376d7ed6ea7fc1b8f8a34bf2be7833",
+  "source_commit": "0debd2c69fb562d6be5747c53075f0d5646f13d1",
+  "notes": "Original script used PROC IMPORT against a local CSV at /home/u63312465/STK220/Practical 1/Quiz 1/Quiz1.csv (not available here). Substituted a small inline DATALINES block (20 rows, X1/X2/X3 columns, synthetic values in the same numeric range implied by the script's own grp1/grp2 thresholds) in place of the PROC IMPORT step; every statement after that (PROC MEANS, PROC IML column means/sum, PROC FREQ classification) is unmodified from source. Added run; statements after two PROC steps that relied on falling through to the next PROC/DATA boundary."
+}
