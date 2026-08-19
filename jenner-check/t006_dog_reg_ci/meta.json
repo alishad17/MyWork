@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_dog_reg_ci",
+  "source_file": "STK310/Quiz 2 310.sas",
+  "source_blob_sha": "16d86e9eec5e0e4b87e03e56e1ff3f74741ee5a3",
+  "source_commit": "0debd2c69fb562d6be5747c53075f0d5646f13d1",
+  "notes": "DATA step with inline cards (dog weight/height/length measurements) feeding two PROC REG models (simple and multiple regression with CLB/CLI/CLM confidence/prediction limits) plus PROC IML for manual t-test verification and PROC UNIVARIATE on residuals. Added missing run; statements between PROC steps for standalone execution. Same READ ALL VAR <character-matrix-variable> substitution as t005 (literal {Weight Height Length} in place of the varNames variable, same colname= labeling) -- worked around here, filed as a regression test upstream."
+}

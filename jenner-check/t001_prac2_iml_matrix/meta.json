@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_prac2_iml_matrix",
+  "source_file": "STK210/Prac2 210.sas",
+  "source_blob_sha": "dbede8e3237ac5d584a843aab766053d8a2f0550",
+  "source_commit": "0debd2c69fb562d6be5747c53075f0d5646f13d1",
+  "notes": "PROC IML: generates its own 300x10 uniform random matrix (call randseed/randfun) and reports column mean/std plus a single-observation row's mean/std; self-contained, no external data. Fixed a transpose-indexing typo (X`[249,] -> X[249,], the transpose has only 10 rows so 249 was out of bounds) to make the script's evident intent (stats of observation 249) executable; verified against SAS 9.4 IML docs that MEAN/STD are column-wise reducers, so a single-row input correctly returns the row itself (mean) and missing (std, n=1) -- not a Jenner bug."
+}

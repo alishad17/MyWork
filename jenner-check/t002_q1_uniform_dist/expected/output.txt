@@ -1,0 +1,151 @@
+Practical 10: Question 1
+
+Question 1(a)
+
+     0.5
+    0.25
+    0.75
+
+Question 1(b)
+
+     125
+      10
+
+Question 1(c)
+
+       0
+    0.05
+
+Question 1(d)
+
+     130
+33.333333
+4.4411559
+
+Question 1(e)
+
+Q1ei:   
+     0.5
+
+Q1eii:  
+    0.25
+
+Q1eiii: 
+     125
+
+Q1eiv:  
+     135
+
+Q1ev:   
+    0.05
+
+Question 2(f)
+
+131.00815
+128.6972
+135.02411
+125.94046
+122.3347
+130.28035
+124.81249
+121.22418
+125.79698
+132.82753
+
+Question 2(g)
+
+Observations 101-110: 
+135.19653
+133.7716
+124.59903
+122.68997
+125.17138
+124.99323
+136.10238
+134.23145
+ 124.467
+134.62138
+
+                                               Flight time of an airplane
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  time
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      129.969803    Sum Observations        12996.980286
+Std Deviation               6.172483    Variance                   38.099541
+Skewness                   -0.007283    Kurtosis                   -1.294847
+Uncorrected SS        1692986.820035    Corrected SS             3771.854574
+Coeff Variation             4.749167    Std Error Mean              0.617248
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      129.969803  Std Deviation   6.172483
+Median    130.404439  Variance       38.099541
+Mode               .  Range          19.788284
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      120.078952
+1%          120.143831
+5%          120.644266
+10%         121.424563
+25% Q1      124.434312
+50% Median  130.404439
+75% Q3      135.063570
+90%         138.468497
+95%         139.521983
+99%         139.842251
+100% Max    139.867237
+
+           Extreme Observations           
+
+       Lowest               Highest
+     Value       Obs       Value       Obs
+----------  --------  ----------  --------
+120.078952        91  139.537901        44
+120.208709        88  139.653120        39
+120.429398        98  139.710096        35
+120.551072        70  139.817265        36
+120.618724        97  139.867237        67
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  210.5633    Pr > |t|    <.0001
+                                    Sign           M        50    Pr >= |M|   <.0001
+                                    Signed Rank    S      2525    Pr >= |S|   <.0001
+
+                               Empirical probabilities of the flight time of an airplane
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+grp1    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              51     51.00           51        51.00
+1              49     49.00          100       100.00
+
+                                  Cumulative    Cumulative
+grp2    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+0              74     74.00           74        74.00
+1              26     26.00          100       100.00
+                               Empirical probabilities of the flight time of an airplane
+
+                                                  The MEANS Procedure
+
+ Variable         N           Mean        Std Dev        Minimum        Maximum
+ ------------------------------------------------------------------------------
+ grp1           100      0.4900000      0.5024184      0.0000000      1.0000000
+ grp2           100      0.2600000      0.4408440      0.0000000      1.0000000
+ ------------------------------------------------------------------------------
+

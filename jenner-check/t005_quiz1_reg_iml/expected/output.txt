@@ -1,0 +1,206 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1       581.97436    581.97436    529.72    <.0001
+Error                  18        19.77564      1.09865                    
+Corrected Total        19       601.75000                                 
+
+Root MSE           1.04816    R-Square            0.9671
+Dependent Mean      72.75000    Adj R-Sq            0.9653
+Coeff Var          1.44077
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -6.83277         3.46571     -1.97    0.0642
+x                 1   6.23934         0.27109     23.02    <.0001
+
+   Covariance of Estimates    
+
+Variable   Intercept         x
+---------  ---------  --------
+Intercept   12.01111  -0.93737
+x           -0.93737   0.07349
+
+      12      70
+      13      75
+    11.5      65
+      14      80
+    12.5      72
+      12      68
+    13.5      77
+    12.5      73
+    11.8      67
+    14.2      82
+    13.8      79
+    12.3      70
+    11.7      64
+    12.8      74
+    13.2      76
+    14.5      83
+    12.1      68
+    11.9      66
+    13.1      75
+    12.7      71
+
+ 18651.8
+
+7841.7938
+
+81.765858
+
+0.234142
+
+ 18651.8
+
+                                                The UNIVARIATE Procedure
+                                                      Variable:  x
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       12.755000    Sum Observations          255.100000
+Std Deviation               0.887026    Variance                    0.786816
+Skewness                    0.506346    Kurtosis                   -0.789670
+Uncorrected SS           3268.750000    Corrected SS               14.949500
+Coeff Variation             6.954342    Std Error Mean              0.198345
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      12.755000  Std Deviation  0.887026
+Median    12.600000  Variance       0.786816
+Mode      12.000000  Range          3.000000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      11.500000
+1%          11.500000
+5%          11.600000
+10%         11.750000
+25% Q1      12.000000
+50% Median  12.600000
+75% Q3      13.350000
+90%         14.100000
+95%         14.350000
+99%         14.500000
+100% Max    14.500000
+
+          Extreme Observations          
+
+      Lowest               Highest
+    Value       Obs      Value       Obs
+---------  --------  ---------  --------
+11.500000         3  13.500000         7
+11.700000        13  13.800000        11
+11.800000         9  14.000000         4
+11.900000        18  14.200000        10
+12.000000         1  14.500000        16
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.947114313  0.325400161
+Kolmogorov-Smirnov  0.119871047  0.903795246
+Anderson-Darling    0.360388666      0.15
+Cramer-von Mises    0.052800041  0.864571514
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t   64.3071    Pr > |t|    <.0001
+                                    Sign           M        10    Pr >= |M|   <.0001
+                                    Signed Rank    S       105    Pr >= |S|   <.0001
+
+
+                                                The UNIVARIATE Procedure
+                                                      Variable:  y
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       72.750000    Sum Observations         1455.000000
+Std Deviation               5.627704    Variance                   31.671053
+Skewness                    0.241033    Kurtosis                   -0.880269
+Uncorrected SS         106453.000000    Corrected SS              601.750000
+Coeff Variation             7.735676    Std Error Mean              1.258393
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      72.750000  Std Deviation   5.627704
+Median    72.500000  Variance       31.671053
+Mode      68.000000  Range          19.000000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      64.000000
+1%          64.000000
+5%          64.500000
+10%         65.500000
+25% Q1      68.000000
+50% Median  72.500000
+75% Q3      76.500000
+90%         81.000000
+95%         82.500000
+99%         83.000000
+100% Max    83.000000
+
+          Extreme Observations          
+
+      Lowest               Highest
+    Value       Obs      Value       Obs
+---------  --------  ---------  --------
+64.000000        13  77.000000         7
+65.000000         3  79.000000        11
+66.000000        18  80.000000         4
+67.000000         9  82.000000        10
+68.000000         6  83.000000        16
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.96790615  0.710190298
+Kolmogorov-Smirnov  0.10067611  0.974745228
+Anderson-Darling    0.186995909      0.15
+Cramer-von Mises    0.024176304  0.992701902
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  57.81183    Pr > |t|    <.0001
+                                    Sign           M        10    Pr >= |M|   <.0001
+                                    Signed Rank    S       105    Pr >= |S|   <.0001
+
